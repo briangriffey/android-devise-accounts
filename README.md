@@ -4,6 +4,14 @@ This is a little starter package for authenticating Android users with a Rails b
 
 This example never stores the user password on the system. It saves the authentication token given back by devise for future usage
 
+Instructions
+============
+Setup your rails project to have an endpoint similar to this article: http://matteomelani.wordpress.com/2011/10/17/authentication-for-mobile-devices/.
+
+Edit com.briangriffey.devise.auth.AuthenticationLoader and replace the localhost endpoint with your own endpoint.
+If your service will return anything other than {"token" :token} edit AuthTokenParser to get the auth token from your response. 
+
+
 Developed By
 =============
 Brian Griffey - brian@briangriffey.com
