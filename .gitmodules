@@ -1,0 +1,3 @@
+[submodule "android-basic-utils"]
+	path = android-basic-utils
+	url = git@github.com:briangriffey/android-basic-utils.git
